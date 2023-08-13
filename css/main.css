@@ -108,6 +108,10 @@ legend {
   display: block;
 }
 
+a {
+  z-index: 10;
+}
+
 body {
   font-family: "Bricolage Grotesque";
   text-transform: uppercase;
