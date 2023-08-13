@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,700;10..48,800&display=swap');
+
+body {
+    font-family: 'Bricolage Grotesque';
+    // font-size: 40px;
+    text-transform: uppercase;
+    background: $background;
+    color: $base;
+    overflow-x: hidden;
+    background-position: center;
+    z-index: -3;
+    height: 100%;
+}
+
+main {
+    display: block;
+}
+
+.title,
+.header {
+    font-family: 'Barriecito';
+}
+
+.content {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 512px) {
+    body {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 3px;
+        line-break: anywhere;
+        font-size: 15px;
+    }
+    .title {
+        font-size: 15px;
+        max-width: 300px;
+    }
+    .subtitle {
+        max-width: 220px; 
+    }
+}
+
+@media screen and (max-width: 848px) {
+    body {
+        font-size: 40px;
+        margin-bottom: 0.1em;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0 20px;
+        line-break: anywhere;
+    }
+    .list {
+        max-width: 370px;
+        font-size: 20px;
+    }
+    .button {
+        font-size: 17px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+    .content {
+        padding-top: 40px;
+    }
+    .section {
+        margin-bottom: 50px;
+    }
+}
+
+a {
+    color: $base;
+    transition: color 0.2s ease-in;
+
+}
+
+h2 {
+    font-weight: normal;
+}

@@ -1,0 +1,24 @@
+.title {
+    font-size: 70px;
+    font-weight: normal;
+    word-break: break-all; 
+    hyphens: auto;
+}
+.subtitle {
+    display: block;
+    font-size: 40px;
+}
+
+.description {
+    font-size: 20px;
+    text-transform: none;
+    margin-top: 30px;
+    word-break: break-all; 
+    @media screen and (max-width: 512px)  {
+        max-width: 320px;
+    }
+}
+.block {
+    display: flex;
+    gap: 25px;
+}

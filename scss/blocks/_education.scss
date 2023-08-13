@@ -1,0 +1,35 @@
+.period {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.date {
+    font-size: 20px;
+    padding: 6px 18px;
+    transition: all 0.2s ease-in-out;
+    background-color: $base;
+    color: #71c2d1;
+}
+.name {
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: underline;
+
+    a {
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+.upname {
+    font-weight: bold;
+    font-size: 25px;
+
+    @media screen and (max-width: 512px)  {
+        max-width: 250px; 
+        font-size: 20px;
+    }
+}
